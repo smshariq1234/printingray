@@ -60,47 +60,34 @@ class MobileMenu extends Component{
                             </div>
                             <nav className="offcanvas-navigation" id="offcanvas-navigation">
                                 <ul>
-                                    <li className="menu-item-has-children">
-                                    <Link to={`${process.env.PUBLIC_URL}/home-one`}>HOME</Link>
-                                        <ul className="sub-menu">
-                                            <li><Link to={`${process.env.PUBLIC_URL}/home-one`}>Homepage One</Link></li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/home-two`}>Homepage Two</Link></li>
-                                        </ul>
-                                    </li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>ABOUT</Link></li>
-                                    <li className="menu-item-has-children">
-                                        <Link to={`${process.env.PUBLIC_URL}/services`}>SERVICE</Link>
-                                        <ul className="sub-menu">
-                                            <li><Link to={`${process.env.PUBLIC_URL}/services`}>Service Page</Link></li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/service-details-left-sidebar`}>Service Details Left Sidebar</Link></li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/service-details-right-sidebar`}>Service Details Right Sidebar</Link></li>
-                                        </ul>
-                                    </li>
-                                    <li className="menu-item-has-children">
-                                        <Link to={`${process.env.PUBLIC_URL}/projects`} >PROJECT</Link>
-                                        <ul className="sub-menu">
-                                            <li><Link to={`${process.env.PUBLIC_URL}/projects`} >Project Page</Link></li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/project-details`}>Project Details</Link></li>
-                                        </ul>
-                                    </li>
-                                    <li className="menu-item-has-children">
-                                        <Link to={`${process.env.PUBLIC_URL}/blog-left-sidebar`}>BLOG</Link>
-                                        <ul className="sub-menu">
-                                            <li><Link to={`${process.env.PUBLIC_URL}/blog-left-sidebar`}>Blog Left Sidebar</Link></li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/blog-right-sidebar`}>Blog Right Sidebar</Link></li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/blog-details-left-sidebar`}>Blog Details Left Sidebar</Link></li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/blog-details-right-sidebar`}>Blog Details Right Sidebar</Link></li>
-                                        </ul>
-                                    </li>
-                                    <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>CONTACT</Link> </li>
+                                <li><Link to={`${process.env.PUBLIC_URL}/home-one`}>HOME</Link></li>
+
+<li className="has-children has-children--multilevel-submenu">
+    <Link to={`${process.env.PUBLIC_URL}/services`}>COLLECTION</Link>
+    <ul className="submenu">
+    <li><Link to={`${process.env.PUBLIC_URL}/services`}>Cosmetic Box</Link></li>
+    </ul>
+</li>
+<li><Link to={`${process.env.PUBLIC_URL}/`}>CUSTOM BOX</Link></li>
+<li><Link to={`${process.env.PUBLIC_URL}/`}>BOXES BY STYLE</Link></li>
+
+<li><Link to={`${process.env.PUBLIC_URL}/`}>OUR REVIEW</Link></li>
+
+<li className="has-children has-children--multilevel-submenu">
+    <Link to={`${process.env.PUBLIC_URL}/`}>BLOG</Link>
+    <ul className="submenu">
+    <li><Link to={`${process.env.PUBLIC_URL}/`}>Blog</Link></li>
+    </ul>
+</li>
+<li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>CONTACT</Link> </li>
                                 </ul>
                             </nav>
                             <div className="offcanvas-widget-area">
                                 <div className="off-canvas-contact-widget">
                                 <div className="header-contact-info">
                                     <ul className="header-contact-info__list">
-                                    <li><i className="ion-android-phone-portrait" /> <a href="tel://12452456012">(1245) 2456 012 </a></li>
-                                    <li><i className="ion-android-mail" /> <a href="mailto:info@yourdomain.com">info@yourdomain.com</a></li>
+                                    <li><i className="ion-android-phone-portrait" /> <a href="tel://12452456012">(703) 566 9901 </a></li>
+                                    <li><i className="ion-android-mail" /> <a href="mailto:info@yourdomain.com">info@printmyboxes.com</a></li>
                                     </ul>
                                 </div>
                                 </div>

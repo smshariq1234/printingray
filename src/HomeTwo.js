@@ -16,39 +16,7 @@ class HomeTwo extends Component{
         
         return(
             <div>
-                
-                {/* Navigation bar */}
-                <NavBar/>
-                
-                {/* Hero slider */}
-                <HeroSliderTwo/>
-                
-                {/* Video CTA */}
-                <VideoCta/>
-                
-                {/* Project Slider */}
-                <ProjectSliderTwo/>
-                
-                {/* Service Tab */}
-                <ServiceTab/>
-                
-                {/* Testimonial Slider */}
-                <TestimonialSlider/>
-                
-                {/* Team job */}
-                <TeamJob/>
-
-                {/* Brand logo */}
-                <BrandLogoSlider background = "grey-bg" />
-                
-                {/* Blog grid */}
-                <BlogGrid  background = "" />
-
-                {/* Footer */}
-                <Footer/>
-
-                {/* Mobile Menu */}
-                <MobileMenu/>
+           
 
             </div>
         )
