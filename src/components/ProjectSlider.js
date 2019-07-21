@@ -31,9 +31,8 @@ class ProjectSlider extends Component{
         };
         
         let data = [
-            {img: '1.jpg', sliderTitle: 'Construction Management', sliderShortDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim', sliderLink: 'project-details'},
-            {img: '1.jpg', sliderTitle: 'Power and Energy', sliderShortDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim', sliderLink: 'project-details'},
-            {img: '1.jpg', sliderTitle: 'Work Management', sliderShortDesc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim', sliderLink: 'project-details'},
+            {img: '1.jpg', sliderTitle: '', sliderShortDesc: 'Who does not like Custom Wholesale Boxes? We understand that regardless of your business domain, having custom boxes with logo is a fundamental corporate need. So, if your motivation to visit our site is getting boxes printed with your custom branding and colors, you are in the right place. Print My Boxes is pleased to offer you an extensive range of printing solutions for packaging, promotion, storing, and supplies. We can design and print custom wholesale boxes in the size and shape of your choice, and help you satisfy your customers like never before. With our Custom Packaging Boxes with Logo, you can satisfy your customers real as well as aesthetics needs.', sliderLink: 'project-details'},
+            {img: '112.jpg', sliderTitle: '', sliderShortDesc: 'Who does not like Custom Wholesale Boxes? We understand that regardless of your business domain, having custom boxes with logo is a fundamental corporate need. So, if your motivation to visit our site is getting boxes printed with your custom branding and colors, you are in the right place. Print My Boxes is pleased to offer you an extensive range of printing solutions for packaging, promotion, storing, and supplies. We can design and print custom wholesale boxes in the size and shape of your choice, and help you satisfy your customers like never before. With our Custom Packaging Boxes with Logo, you can satisfy your customers real as well as aesthetics needs.', sliderLink: 'project-details'},
         ];
 
 
@@ -49,8 +48,6 @@ class ProjectSlider extends Component{
                         </div>
                         <div className="col-lg-6">
                             <div className="content">
-                                <h3 className="count">{'0'+(i+1)}</h3>
-                                <h2 className="title">{val.sliderTitle}</h2>
                                 <p className="desc">{val.sliderShortDesc}</p>
                                 <a href={`${process.env.PUBLIC_URL}/${val.sliderLink}`} className="see-more-link see-more-link--color">VIEW MORE</a>
                             </div>
@@ -69,7 +66,7 @@ class ProjectSlider extends Component{
                     <div className="col-lg-12">
                         {/* section title */}
                         <div className="section-title-area text-center">
-                            <h2 className="section-title section-space--bottom--50">Latest Projects <span className="title-icon" /></h2>
+                            <h2 className="section-title section-space--bottom--50">Custom Boxes with Logo - Our Feature Product <span className="title-icon" /></h2>
                         </div>
                     </div>
                     </div>

@@ -34,10 +34,12 @@ class ServiceGridSlider extends Component{
 
         }
         let data = [
-            {img: 'service1.jpg', iconName: 'flaticon-002-welding', serviceTitle: 'Land Minning', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service2.jpg', iconName: 'flaticon-004-walkie-talkie', serviceTitle: 'Work Management', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service3.jpg', iconName: 'flaticon-015-cart', serviceTitle: 'Material Engineering', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
-            {img: 'service1.jpg', iconName: 'flaticon-010-tank-1', serviceTitle: 'Power and Energy', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service1.jpg', iconName: 'flaticon-002-welding', serviceTitle: 'No die & Plate Charges', serviceExcerpt: '-', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service2.jpg', iconName: 'flaticon-004-walkie-talkie', serviceTitle: 'Quick Turnaround Time', serviceExcerpt: '-', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service3.jpg', iconName: 'flaticon-015-cart', serviceTitle: 'Free Shipping', serviceExcerpt: '-', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service1.jpg', iconName: 'flaticon-010-tank-1', serviceTitle: 'Starting from 50 boxes', serviceExcerpt: '-', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service1.jpg', iconName: 'flaticon-010-tank-1', serviceTitle: 'Custom Size & Style', serviceExcerpt: '-', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service1.jpg', iconName: 'flaticon-010-tank-1', serviceTitle: 'Free Graphic Designing', serviceExcerpt: '-', serviceUrl: 'service-details-left-sidebar'},
         ];
 
         let DataList = data.map((val, i)=>{
@@ -73,7 +75,7 @@ class ServiceGridSlider extends Component{
                     <div className="row">
                     <div className="col-lg-12">
                         <div className="section-title-area text-center">
-                        <h2 className="section-title section-space--bottom--50">Our Services <span className="title-icon" /></h2>
+                        <h2 className="section-title section-space--bottom--50">More Features <span className="title-icon" /></h2>
                         </div>
                     </div>
                     <div className="col-lg-12">

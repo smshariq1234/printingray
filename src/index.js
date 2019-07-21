@@ -25,7 +25,7 @@ class Root extends Component{
         return(
             <BrowserRouter basename={'/'}>
                 <Switch>
-                    <Route exact path={`${process.env.PUBLIC_URL}/`} component={DemoIndex}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomeOne}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/home-one`} component={HomeOne}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/home-two`} component={HomeTwo}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/about-us`} component={About}/>

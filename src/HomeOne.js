@@ -36,15 +36,10 @@ class HomeOne extends Component{
                 {/* Project Slider */}
                 <ProjectSlider/>
                 
-                {/* Team job */}
-                <TeamJob/>
-                
                 {/* Testimonial Slider */}
                 <TestimonialSlider/>
                 
-                {/* Blog grid */}
-                <BlogGrid background = "grey-bg" />
-
+               
                 {/* Brand logo */}
                 <BrandLogoSlider background = "" />
 

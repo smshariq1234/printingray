@@ -94,7 +94,7 @@ class NavBar extends Component{
                                         </div>
                                         <div className="header-info-single-item__content">
                                         <h6 className="header-info-single-item__title">Phone</h6>
-                                        <p className="header-info-single-item__subtitle">98 9875 5968 54</p>
+                                        <p className="header-info-single-item__subtitle">(703) 566 9901 </p>
                                         </div>
                                     </div>
                                     <div className="header-info-single-item">
@@ -103,7 +103,7 @@ class NavBar extends Component{
                                         </div>
                                         <div className="header-info-single-item__content">
                                         <h6 className="header-info-single-item__title">Address</h6>
-                                        <p className="header-info-single-item__subtitle">your address goes here</p>
+                                        <p className="header-info-single-item__subtitle">info@printmyboxes.com</p>
                                         </div>
                                     </div>
                                     </div>
@@ -127,29 +127,21 @@ class NavBar extends Component{
                                         <div className="header-navigation__nav position-static">
                                         <nav>
                                             <ul>
+                                            <li><Link to={`${process.env.PUBLIC_URL}/home-one`}>HOME</Link></li>
+
                                             <li className="has-children has-children--multilevel-submenu">
-                                                <Link to={`${process.env.PUBLIC_URL}/home-one`}> HOME </Link>
+                                                <Link to={`${process.env.PUBLIC_URL}/services`}>COLLECTION</Link>
                                                 <ul className="submenu">
-                                                    <li><Link to={`${process.env.PUBLIC_URL}/home-one`}>Homepage One</Link></li>
-                                                    <li><Link to={`${process.env.PUBLIC_URL}/home-two`}>Homepage Two</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/services`}>Cosmetic Box</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-left-sidebar`}>Cosmetic Box - Left Sidebar</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-right-sidebar`}>Cosmetic Box - Right Sidebar</Link></li>
                                                 </ul>
                                             </li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>ABOUT</Link></li>
-                                            <li className="has-children has-children--multilevel-submenu">
-                                                <Link to={`${process.env.PUBLIC_URL}/services`}>SERVICE</Link>
-                                                <ul className="submenu">
-                                                <li><Link to={`${process.env.PUBLIC_URL}/services`}>Service Page</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-left-sidebar`}>Service Details Left Sidebar</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-right-sidebar`}>Service Details Right Sidebar</Link></li>
-                                                </ul>
-                                            </li>
-                                            <li className="has-children has-children--multilevel-submenu">
-                                                <Link to={`${process.env.PUBLIC_URL}/projects`} >PROJECT</Link>
-                                                <ul className="submenu">
-                                                <li><Link to={`${process.env.PUBLIC_URL}/projects`} >Project Page</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/project-details`}>Project Details</Link></li>
-                                                </ul>
-                                            </li>
+                                            <li><Link to={`${process.env.PUBLIC_URL}/projects`}>CUSTOM BOX</Link></li>
+                                            <li><Link to={`${process.env.PUBLIC_URL}/project-details`}>BOXES BY STYLE</Link></li>
+
+                                            <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>OUR REVIEW</Link></li>
+
                                             <li className="has-children has-children--multilevel-submenu">
                                                 <Link to={`${process.env.PUBLIC_URL}/blog-left-sidebar`}>BLOG</Link>
                                                 <ul className="submenu">
@@ -159,7 +151,7 @@ class NavBar extends Component{
                                                 <li><Link to={`${process.env.PUBLIC_URL}/blog-details-right-sidebar`}>Blog Details Right Sidebar</Link></li>
                                                 </ul>
                                             </li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>CONTACT</Link> </li>
+                                            <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>Contact</Link> </li>
                                             </ul>
                                         </nav>
                                         </div>

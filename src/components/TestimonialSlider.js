@@ -21,9 +21,9 @@ class TestimonialSlider extends Component{
               ),
         }
         let data = [
-            {testimonialImage: "1.jpg", testimonialName: "Madison Black", testimonialDesignation: "Founder", testimonialText: "Lorem ipsum dolor sit amet, consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"},
-            {testimonialImage: "3.jpg", testimonialName: "Jonathon Doe", testimonialDesignation: "Engineer", testimonialText: "Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet."},
-            {testimonialImage: "2.jpg", testimonialName: "John Doe", testimonialDesignation: "CEO", testimonialText: "consectetur adipisi elit sed do eiusmod tempor incididu ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"}
+            {testimonialImage: "1.jpg", testimonialName: "Raphael", testimonialDesignation: "Dealing with Kevin", testimonialText: "I had a great experience working with Kevin at PrintMyBoxes this was my first time designing building Pillow Boxes with my other business. It was great to be able to do everything..."},
+            {testimonialImage: "3.jpg", testimonialName: "Marilyn", testimonialDesignation: "Perfectly Design", testimonialText: "Awesom Quality with perfect personalize. Comapny Logo was perfectly printed with alignment as we..."},
+            {testimonialImage: "2.jpg", testimonialName: "Roy W. Overly", testimonialDesignation: "Dealing with Alan", testimonialText: "lan is an amazing sale person at printmyboxes. He made sure that we are highly satisfied with our custom soap boxes order....Roy W. Overly"}
         ];
 
         let DataList = data.map((val, i)=>{
