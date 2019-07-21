@@ -56,27 +56,23 @@ class Footer extends Component{
                                     </a>
                                     </div>
                                     <div className="footer-desc">
-                                    Lorem ipsum dolor sit amet consect adipisici elit, sed do eiusmod tempor incididuk ut labore et dolore magna aliqua Ut enim
-                                    </div>
+                                    Who does not like Custom Wholesale Boxes? We understand that regardless of your business domain, having custom boxes with logo is a fundamental corporate need.   </div>
                                 </div>
                                 </div>
                                 <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                                 {/* footer widget */}
                                 <div className="footer-widget">
-                                    <h4 className="footer-widget__title">USEFUL LINKS</h4>
+                                    <h4 className="footer-widget__title">PRODUCTS</h4>
                                     <ul className="footer-widget__navigation">
-                                    <li><a href={`${process.env.PUBLIC_URL}/`}>Home</a></li>
-                                    <li><a href={`${process.env.PUBLIC_URL}/`}>Company News</a></li>
-                                    <li><a href={`${process.env.PUBLIC_URL}/`}>Projects</a></li>
-                                    <li><a href={`${process.env.PUBLIC_URL}/`}>Careers</a></li>
-                                    <li><a href={`${process.env.PUBLIC_URL}/`}>Contact Us</a></li>
+                                    <li><a href={`${process.env.PUBLIC_URL}/`}>Custom Cosmetic Boxes</a></li>
+                                    <li><a href={`${process.env.PUBLIC_URL}/`}>Custom Bakery Boxes</a></li>
                                     </ul>
                                 </div>
                                 </div>
                                 <div className="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
                                 {/* footer widget */}
                                 <div className="footer-widget">
-                                    <h4 className="footer-widget__title">USEFUL LINKS</h4>
+                                    <h4 className="footer-widget__title">INFORMATION</h4>
                                     <ul className="footer-widget__navigation">
                                     <li><a href={`${process.env.PUBLIC_URL}/`}>Our Services</a></li>
                                     <li><a href={`${process.env.PUBLIC_URL}/`}>Showcase</a></li>
@@ -91,11 +87,11 @@ class Footer extends Component{
                                 <div className="footer-widget mb-0">
                                     <h4 className="footer-widget__title">CONTACT US</h4>
                                     <div className="footer-widget__content">
-                                    <p className="address">Your address goes here, street Crossroad123.</p>
+                                    <p className="address">4953 Linsey Ct, Woodbridge, VA 22193, USA</p>
                                     <ul className="contact-details">
-                                        <li><span>P:</span>99 55 66 88 526</li>
-                                        <li><span>F:</span>55 44 77 62</li>
-                                        <li><span>E:</span>cons@email.com</li>
+                                        <li><span>P:</span>(703) 566 9901</li>
+                                        <li><span>F:</span>-</li>
+                                        <li><span>E:</span>info@printmyboxes.com</li>
                                     </ul>
                                     </div>
                                 </div>
@@ -107,7 +103,7 @@ class Footer extends Component{
                     </div>
                         <div className="footer-copyright-wrapper">
                         <div className="footer-copyright text-center">
-                        Copyright © 2019. All right reserved
+                        2014 - 2019. Print My Boxes All Rights Reserved
                         </div>
                     </div>
                 </div>

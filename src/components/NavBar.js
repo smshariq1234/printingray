@@ -133,22 +133,17 @@ class NavBar extends Component{
                                                 <Link to={`${process.env.PUBLIC_URL}/services`}>COLLECTION</Link>
                                                 <ul className="submenu">
                                                 <li><Link to={`${process.env.PUBLIC_URL}/services`}>Cosmetic Box</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-left-sidebar`}>Cosmetic Box - Left Sidebar</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-right-sidebar`}>Cosmetic Box - Right Sidebar</Link></li>
                                                 </ul>
                                             </li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/projects`}>CUSTOM BOX</Link></li>
-                                            <li><Link to={`${process.env.PUBLIC_URL}/project-details`}>BOXES BY STYLE</Link></li>
+                                            <li><Link to={`${process.env.PUBLIC_URL}/`}>CUSTOM BOX</Link></li>
+                                            <li><Link to={`${process.env.PUBLIC_URL}/`}>BOXES BY STYLE</Link></li>
 
-                                            <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>OUR REVIEW</Link></li>
+                                            <li><Link to={`${process.env.PUBLIC_URL}/`}>OUR REVIEW</Link></li>
 
                                             <li className="has-children has-children--multilevel-submenu">
-                                                <Link to={`${process.env.PUBLIC_URL}/blog-left-sidebar`}>BLOG</Link>
+                                                <Link to={`${process.env.PUBLIC_URL}/`}>BLOG</Link>
                                                 <ul className="submenu">
-                                                <li><Link to={`${process.env.PUBLIC_URL}/blog-left-sidebar`}>Blog Left Sidebar</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/blog-right-sidebar`}>Blog Right Sidebar</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/blog-details-left-sidebar`}>Blog Details Left Sidebar</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/blog-details-right-sidebar`}>Blog Details Right Sidebar</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/`}>Blog</Link></li>
                                                 </ul>
                                             </li>
                                             <li><Link to={`${process.env.PUBLIC_URL}/contact-us`}>Contact</Link> </li>

@@ -6,7 +6,7 @@ class ServiceTabExample extends Component{
         
         /* service tab menu */
         let serviceTabMenuData = [
-            {iconName: 'flaticon-002-welding', tabMenuName: 'Land Mining'},
+            {iconName: 'flaticon-002-welding', tabMenuName: 'Land Ming'},
             {iconName: 'flaticon-004-walkie-talkie', tabMenuName: 'Work Management'},
             {iconName: 'flaticon-015-cart', tabMenuName: 'Material Engineering'},
             {iconName: 'flaticon-010-tank-1', tabMenuName: 'Power and Energy'}
@@ -22,7 +22,7 @@ class ServiceTabExample extends Component{
         /* service tab content */
         
         let serviceTabContentData = [
-            {bgUrl: "service-tab1.jpg", contentTitle: 'Land Mining', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'},
+            {bgUrl: "service-tab1.jpg", contentTitle: 'Land ing', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'},
             {bgUrl: "service-tab1.jpg", contentTitle: 'Work Management', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'},
             {bgUrl: "service-tab1.jpg", contentTitle: 'Material Engineering', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'},
             {bgUrl: "service-tab1.jpg", contentTitle: 'Power and Energy', contentDesc: 'Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', serviceLink: 'service-details-left-sidebar'}
